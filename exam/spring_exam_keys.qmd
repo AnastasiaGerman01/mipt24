@@ -571,7 +571,7 @@ format:
     $$
     \begin{aligned}
     r(x) &= \lambda \|x\|_1, \quad \lambda > 0 \\
-    [\text{prox}_r(x)]_i &= [|x_i - \lambda]_+ \cdot \text{sign}(x_i)
+    [\text{prox}_r(x)]_i &= [|x_i| - \lambda]_+ \cdot \text{sign}(x_i)
     \end{aligned}
     $$
     :::
